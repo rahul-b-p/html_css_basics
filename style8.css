@@ -1,0 +1,32 @@
+*{
+    background-color: maroon;
+}
+
+h3{
+    font-size: 30px;
+    color: darkslateblue;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h4{
+    font-size: 20px;
+    color: blue;
+}
+
+#p1{
+    color: blue;
+    font-size: 40px;
+}
+
+#p2{
+    font-size: xx-small;
+}
+
+#p3{
+    font-size: x-small;
+}
+.para{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}

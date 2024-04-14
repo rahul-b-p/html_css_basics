@@ -1,0 +1,32 @@
+#p1{
+    border: 10px solid red;
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    padding: 30px;
+}
+
+#p3{
+    border: 10px dotted yellow;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+#p5{
+    border: 10px double blue;
+    margin: 40px 30px 20px 40px;
+}
+
+#p7{
+    border: 10px groove violet;
+    margin: 50px 30px;
+}
+
+#p8{
+    border: 10px outset brown;
+}
+
+#p9{
+    border: 15px ridge green;
+}

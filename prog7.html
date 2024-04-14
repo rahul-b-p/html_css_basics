@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form>
+        <label for="uname" >Username :</label>
+        <input id="uname" type="text" placeholder="Enter your username">
+        <br> <br>
+        <label for="pass">Password :</label>
+        <input id="pass" type="password" placeholder="Enter your password">
+        <br> <br>
+        <label for="mailid">Email Id :</label>
+        <input type="email"  id="mailid" placeholder="eg: abc@gmail.com ">
+        <br> <br>
+        <label for="dob">Date of Birth :</label>
+        <input id="dob" type="date">
+        <br> <br>
+        <label for="">Gender :</label>
+        <br>
+        <label for="">Male:</label>
+        <input name="gender" type="radio">
+        <label for="">Female:</label>
+        <input name="gender" type="radio">
+        <label for="">Others:</label>
+        <input name="gender" type="radio">
+        <br> <br>
+        <label for="doc">Upload Your Doccument :</label>
+        <input id="doc" type="file">
+        <br> <br>
+        <label for="attempt">No of Attempts :</label>
+        <input type="number" min="2" max="10" step="2">
+        <br> <br>
+        <label for="adrs">Adress :</label>
+        <textarea  id="adrs" cols="20" rows="5"></textarea>
+        <br> <br>
+        <label for="course">Choose The Course :</label>
+        <select id="course">
+            <option value="Python">Python</option>
+            <option value="MEARN">ME(A)RN</option>
+            <option value="AI">AI</option>
+            <option value="ML">ML</option>
+            <option value="Flutter">Flutter</option>
+        </select>
+        <br> <br>
+        <input id="check" type="checkbox">
+        <label for="check">I accept the terms and conditions</label>
+        <br> <br>
+        <button type="submit">Submit</button>
+        <input type="submit">
+    </form>
+</body>
+</html>

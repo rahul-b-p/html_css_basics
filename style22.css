@@ -1,0 +1,14 @@
+:root{
+    --x:blue;
+    --z:50px;
+}
+h1{
+    --y:orange;
+    color: var(--y);
+}
+#p1{
+    color: var(--x);
+}
+#p2{
+    font-size: var(--z);
+}
